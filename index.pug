@@ -10,20 +10,47 @@ html(lang="es")
     link(rel="stylesheet", href="css/style.css")
   body
     header.header
-      div.container
-        div.row
-          div.d-flex.menu-header
-            div.icon-bars.col-1
-              a(href="#")
-                i.fa.fa-bars
-            div.icon-search.col-1
-              a(href="#")
-                i.fas.fa-search
-            div.logo-header.col-7
-              a(href="#"): img(src="img/microsoft.png", alt="")
-            div.icon-user.col-3
-              a(href="#"): i.fas.fa-user-plus
+      div.container: div.row
+        div.d-flex.menu-header
+          div.icon-bars.col-1
+            a(href="#")
+              i.fa.fa-bars
+          div.icon-search.col-1
+            a(href="#")
+              i.fas.fa-search
+          div.logo-header.col-7
+            a(href="#"): img(src="img/microsoft.png", alt="")
+          div.icon-user.col-3
+            a(href="#"): i.fas.fa-user-plus
           
-    div.col-12.office
+    nav.col-12.office
       button Office
-    
+    section
+      div.img-principal
+        img(src="img/fondo.jpg", alt="")
+      div.container: div.row
+        div.parrafo-img
+          div
+            h2 Este es tu 365
+          div
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, tenetur.
+          div.botones.col-12
+            div
+              a(href="#").col-12 Para el hogar
+            div
+              a(href="#").col-12 Para el hogar
+    section.background-office
+      div.container: div.row
+        div.col-12: h2 Qué es Office 365
+        div.col-12
+          p Office 365 es un servicio de suscripción basado en la nube que reúne las mejores herramientas para la forma de trabajar de hoy en día. Al combinar las mejores aplicaciones de su categoría, como Excel y Outlook, con servicios de gran utilidad en la nube, como OneDrive y Microsoft Teams, Office 365 permite a los usuarios crear y compartir desde cualquier lugar y dispositivo.
+        div
+          img(src="img/tablet.webp", alt="").img-fluid
+    section.informacion-office
+      div.container: div.row
+        div: h2 Más información sobre Office 365
+        article.col-12.info-office
+          img(src="img/hogar.png", alt="")
+          span Hogar
+          a(href="#") Más información
+

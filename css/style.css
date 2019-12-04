@@ -29,3 +29,39 @@ border-bottom: 1px solid grey;
   border: none;
   font-weight: 700;
 }
+
+.img-principal img{
+  width: 100%;
+  margin-bottom: 35px;
+}
+.parrafo-img{
+  text-align: center
+}
+.botones div{
+  margin-top: 25px
+}
+.botones a{
+  text-decoration: none;
+  color: white;
+  background: #d83b01;
+  padding: 8px 60px;
+  border-color: #fff
+}
+.botones a:hover{
+  background: #a50800
+}
+.background-office{
+  padding-top: 30px;
+  margin-top: 50px;
+  background-color: #d6cdcd71;
+}
+.informacion-office{
+  text-align: center;
+  align-items: center
+}
+/* terminarlo pronto :D */
+/* .info-office{
+  width: 100%;
+  display: flex;
+  flex-direction: column
+} */
