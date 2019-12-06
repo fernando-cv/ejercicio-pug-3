@@ -2,7 +2,7 @@
 border-bottom: 1px solid grey;
 }
 .menu-header{
-  padding: 5px 0 0 20px;
+  padding: 10px 0 10px 20px;
 }.icon-bars i{
   color: black
 }
@@ -56,12 +56,34 @@ border-bottom: 1px solid grey;
   background-color: #d6cdcd71;
 }
 .informacion-office{
+  padding-top: 70px;
   text-align: center;
-  align-items: center
+  align-items: center;
+  padding-bottom: 50px;
 }
-/* terminarlo pronto :D */
-/* .info-office{
-  width: 100%;
+.info-office{
   display: flex;
-  flex-direction: column
-} */
+  flex-direction: column;
+  width: 20px;
+}
+.info-office span{
+  font-weight: 700;
+  font-size: 17px;
+  margin-top: 10px;
+}
+.info-office a{
+  color: #0067b8;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.info-office a:hover{
+  text-decoration: underline;
+}
+.seguir-link{
+  border-top: 1px solid grey;
+  padding-top: 50px;
+}
+.seguir-link h2{
+  font-size: 20px;
+  font-weight: 700;
+}
