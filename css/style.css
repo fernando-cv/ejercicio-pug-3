@@ -81,9 +81,38 @@ border-bottom: 1px solid grey;
 }
 .seguir-link{
   border-top: 1px solid grey;
-  padding-top: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .seguir-link h2{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
+}
+.seguir-link nav, i{
+  padding-left: 15px;
+}
+.footer-superior{
+  background-color: rgba(128, 128, 128, 0.137);
+}
+.link-footer{
+  margin: 31px 0 0 15px;
+}
+.link-footer h3{
+  font-size: 15px;
+  color: gray
+}
+.link-footer ul{
+  list-style: none;
+  padding-left: 0px;
+}
+.link-footer a{
+  font-size: 12px;
+  color: grey; 
+}
+.link-footer a:hover{
+  color: black;
+}
+.spanish-footer a{
+  font-size: 12px;
+  color: gray;
 }
